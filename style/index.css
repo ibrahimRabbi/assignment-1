@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+/*header design start*/
+
+.header{
+ background-image:url("../images/banner2.png") ;
+ background-size: cover;
+ background-position: center;
+ height: 80vh;
+  
+}
+
+.header .sub-header{
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+  width: 85%;
+  margin: auto;
+  padding-top: 78px;
+}
+
+.header .header-title{
+    width: 400px;
+    text-align: right;
+}
+
+.header-title h1{
+ font-weight:800;
+
+}
+
+.header-title p{
+    font-size: 13px;
+    font-weight:bold;
+    color: rgb(105, 85, 85);
+    margin: 15px 0px;
+}
+
+.header-title button{
+    background-color: crimson;
+    padding: 12px 14px;
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+/*header design end*/
