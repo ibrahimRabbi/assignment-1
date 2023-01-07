@@ -177,3 +177,61 @@ align-items: center;
     font-weight: bold;
 }
 /*gradiant banner design end*/
+
+
+
+/*footer design start*/
+
+footer{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.562));
+    color: aliceblue;
+    
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto 0px;
+    padding: 60px 0px;
+}
+
+.footer-section .contact{
+    width: 580px;
+}
+
+.footer-section .contact small{
+    display: block;
+    margin: 10px 0px;
+    color: rgb(190, 182, 182);
+}
+
+.footer-section .contact .icons{
+    margin-top: 20px;
+}
+
+.footer-section .contact .icons img{
+    width: 40px;
+}
+
+.footer-section .subscribe input{
+ padding: 10px;
+ border: none;
+ border-radius: 5px;
+ display: block;
+}
+
+.footer-section .subscribe button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: crimson;
+    margin-top: 7px;
+}
+
+
+
+/*footer design end*/
